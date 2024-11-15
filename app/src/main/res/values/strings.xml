@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">globally_draggable_widget</string>
+    <string name="assistive_touch_button">Assistive Touch Button</string>
+    <string name="main_button">Main Button</string>
+    <string name="screenshot_button">Take Screenshot</string>
+    <string name="record_button">Record Screen</string>
+</resources>

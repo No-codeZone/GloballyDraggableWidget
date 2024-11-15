@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/menu_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/main_button"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/menu_screenshot"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/circle_background"
+            android:padding="12dp"
+            android:src="@drawable/screenshot"
+            android:contentDescription="@string/screenshot_button" />
+
+        <ImageView
+            android:id="@+id/menu_record"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/circle_background"
+            android:padding="12dp"
+            android:src="@drawable/ic_record"
+            android:contentDescription="@string/record_button" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/main_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/circle_background"
+        android:padding="12dp"
+        android:src="@drawable/assistive_touch"
+        android:contentDescription="@string/main_button" />
+
+</RelativeLayout>
